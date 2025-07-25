@@ -154,7 +154,7 @@ import os
 import json
 from azure.communication.phonenumbers import PhoneNumbersClient
 
-connection_string = "endpoint=https://wolffacs.unitedstates.communication.azure.com/;accesskey=FQOxfpDMSNGjjn91WhUQgSpNGYDEW9h4EGS2tzh4Dx+sDXhwbv6sjEEmWDOaBxzKoESaNwH4s4yDiCkggFQJgQ=="
+connection_string = "endpoint=https://wolffacs.unitedstates.communication.azure.com/;accesskey=string"
 
 try:
     client = PhoneNumbersClient.from_connection_string(connection_string)
